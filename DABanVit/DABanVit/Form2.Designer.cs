@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.gametime = new System.Windows.Forms.Timer(this.components);
-            this.GameTime1 = new System.Windows.Forms.Timer(this.components);
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SpaceShip = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
@@ -52,6 +51,20 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Man1 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao = new System.Windows.Forms.PictureBox();
+            this.Ngoisao12 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao5 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao9 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao4 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao8 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao3 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao10 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao11 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao6 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao7 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao13 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao1 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.SpaceShip)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
@@ -72,6 +85,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Man1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao2)).BeginInit();
             this.SuspendLayout();
             // 
             // gametime
@@ -79,10 +106,6 @@
             this.gametime.Enabled = true;
             this.gametime.Interval = 20;
             this.gametime.Tick += new System.EventHandler(this.gametime_Tick);
-            // 
-            // GameTime1
-            // 
-            this.GameTime1.Tick += new System.EventHandler(this.GameTime1_Tick);
             // 
             // openFileDialog1
             // 
@@ -92,7 +115,7 @@
             // 
             this.SpaceShip.BackColor = System.Drawing.Color.White;
             this.SpaceShip.Image = global::DABanVit.Properties.Resources.Spaceship_PNG1;
-            this.SpaceShip.Location = new System.Drawing.Point(767, 760);
+            this.SpaceShip.Location = new System.Drawing.Point(773, 738);
             this.SpaceShip.Name = "SpaceShip";
             this.SpaceShip.Size = new System.Drawing.Size(110, 109);
             this.SpaceShip.TabIndex = 19;
@@ -288,19 +311,160 @@
             // 
             // Man1
             // 
+            this.Man1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.Man1.BackColor = System.Drawing.Color.White;
-            this.Man1.Location = new System.Drawing.Point(-12, 3);
+            this.Man1.Location = new System.Drawing.Point(2, 3);
             this.Man1.Name = "Man1";
-            this.Man1.Size = new System.Drawing.Size(1580, 876);
+            this.Man1.Size = new System.Drawing.Size(1566, 876);
             this.Man1.TabIndex = 0;
             this.Man1.TabStop = false;
             this.Man1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Man1_MouseMove);
+            // 
+            // Ngoisao
+            // 
+            this.Ngoisao.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao.Location = new System.Drawing.Point(1465, 304);
+            this.Ngoisao.Name = "Ngoisao";
+            this.Ngoisao.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao.TabIndex = 20;
+            this.Ngoisao.TabStop = false;
+            // 
+            // Ngoisao12
+            // 
+            this.Ngoisao12.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao12.Location = new System.Drawing.Point(90, 76);
+            this.Ngoisao12.Name = "Ngoisao12";
+            this.Ngoisao12.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao12.TabIndex = 21;
+            this.Ngoisao12.TabStop = false;
+            // 
+            // Ngoisao5
+            // 
+            this.Ngoisao5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao5.Location = new System.Drawing.Point(796, 126);
+            this.Ngoisao5.Name = "Ngoisao5";
+            this.Ngoisao5.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao5.TabIndex = 22;
+            this.Ngoisao5.TabStop = false;
+            // 
+            // Ngoisao9
+            // 
+            this.Ngoisao9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao9.Location = new System.Drawing.Point(228, 202);
+            this.Ngoisao9.Name = "Ngoisao9";
+            this.Ngoisao9.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao9.TabIndex = 23;
+            this.Ngoisao9.TabStop = false;
+            // 
+            // Ngoisao4
+            // 
+            this.Ngoisao4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao4.Location = new System.Drawing.Point(812, 355);
+            this.Ngoisao4.Name = "Ngoisao4";
+            this.Ngoisao4.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao4.TabIndex = 24;
+            this.Ngoisao4.TabStop = false;
+            // 
+            // Ngoisao8
+            // 
+            this.Ngoisao8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao8.Location = new System.Drawing.Point(453, 137);
+            this.Ngoisao8.Name = "Ngoisao8";
+            this.Ngoisao8.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao8.TabIndex = 25;
+            this.Ngoisao8.TabStop = false;
+            // 
+            // Ngoisao3
+            // 
+            this.Ngoisao3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao3.Location = new System.Drawing.Point(1181, 166);
+            this.Ngoisao3.Name = "Ngoisao3";
+            this.Ngoisao3.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao3.TabIndex = 26;
+            this.Ngoisao3.TabStop = false;
+            // 
+            // Ngoisao10
+            // 
+            this.Ngoisao10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao10.Location = new System.Drawing.Point(214, 476);
+            this.Ngoisao10.Name = "Ngoisao10";
+            this.Ngoisao10.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao10.TabIndex = 27;
+            this.Ngoisao10.TabStop = false;
+            // 
+            // Ngoisao11
+            // 
+            this.Ngoisao11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao11.Location = new System.Drawing.Point(61, 314);
+            this.Ngoisao11.Name = "Ngoisao11";
+            this.Ngoisao11.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao11.TabIndex = 28;
+            this.Ngoisao11.TabStop = false;
+            // 
+            // Ngoisao6
+            // 
+            this.Ngoisao6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao6.Location = new System.Drawing.Point(618, 355);
+            this.Ngoisao6.Name = "Ngoisao6";
+            this.Ngoisao6.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao6.TabIndex = 29;
+            this.Ngoisao6.TabStop = false;
+            // 
+            // Ngoisao7
+            // 
+            this.Ngoisao7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao7.Location = new System.Drawing.Point(584, 487);
+            this.Ngoisao7.Name = "Ngoisao7";
+            this.Ngoisao7.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao7.TabIndex = 30;
+            this.Ngoisao7.TabStop = false;
+            // 
+            // Ngoisao13
+            // 
+            this.Ngoisao13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao13.Location = new System.Drawing.Point(369, 599);
+            this.Ngoisao13.Name = "Ngoisao13";
+            this.Ngoisao13.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao13.TabIndex = 31;
+            this.Ngoisao13.TabStop = false;
+            // 
+            // Ngoisao1
+            // 
+            this.Ngoisao1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao1.Location = new System.Drawing.Point(1371, 459);
+            this.Ngoisao1.Name = "Ngoisao1";
+            this.Ngoisao1.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao1.TabIndex = 32;
+            this.Ngoisao1.TabStop = false;
+            // 
+            // Ngoisao2
+            // 
+            this.Ngoisao2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ngoisao2.Location = new System.Drawing.Point(983, 541);
+            this.Ngoisao2.Name = "Ngoisao2";
+            this.Ngoisao2.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao2.TabIndex = 33;
+            this.Ngoisao2.TabStop = false;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1570, 881);
+            this.Controls.Add(this.Ngoisao2);
+            this.Controls.Add(this.Ngoisao1);
+            this.Controls.Add(this.Ngoisao13);
+            this.Controls.Add(this.Ngoisao7);
+            this.Controls.Add(this.Ngoisao6);
+            this.Controls.Add(this.Ngoisao11);
+            this.Controls.Add(this.Ngoisao10);
+            this.Controls.Add(this.Ngoisao3);
+            this.Controls.Add(this.Ngoisao8);
+            this.Controls.Add(this.Ngoisao4);
+            this.Controls.Add(this.Ngoisao9);
+            this.Controls.Add(this.Ngoisao5);
+            this.Controls.Add(this.Ngoisao12);
+            this.Controls.Add(this.Ngoisao);
             this.Controls.Add(this.SpaceShip);
             this.Controls.Add(this.pictureBox19);
             this.Controls.Add(this.pictureBox18);
@@ -347,6 +511,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Man1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -373,7 +551,20 @@
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox SpaceShip;
-        private System.Windows.Forms.Timer GameTime1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.PictureBox Ngoisao;
+        private System.Windows.Forms.PictureBox Ngoisao12;
+        private System.Windows.Forms.PictureBox Ngoisao5;
+        private System.Windows.Forms.PictureBox Ngoisao9;
+        private System.Windows.Forms.PictureBox Ngoisao4;
+        private System.Windows.Forms.PictureBox Ngoisao8;
+        private System.Windows.Forms.PictureBox Ngoisao3;
+        private System.Windows.Forms.PictureBox Ngoisao10;
+        private System.Windows.Forms.PictureBox Ngoisao11;
+        private System.Windows.Forms.PictureBox Ngoisao6;
+        private System.Windows.Forms.PictureBox Ngoisao7;
+        private System.Windows.Forms.PictureBox Ngoisao13;
+        private System.Windows.Forms.PictureBox Ngoisao1;
+        private System.Windows.Forms.PictureBox Ngoisao2;
     }
 }

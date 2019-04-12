@@ -9,3 +9,14 @@ C:\Users\Vo Tan Nguyen\source\repos\DABanVit\DABanVit\obj\Debug\DABanVit.csproj.
 C:\Users\Vo Tan Nguyen\source\repos\DABanVit\DABanVit\obj\Debug\DABanVit.csproj.CoreCompileInputs.cache
 C:\Users\Vo Tan Nguyen\source\repos\DABanVit\DABanVit\obj\Debug\DABanVit.exe
 C:\Users\Vo Tan Nguyen\source\repos\DABanVit\DABanVit\obj\Debug\DABanVit.pdb
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\bin\Debug\DABanVit.exe.config
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\bin\Debug\DABanVit.exe
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\bin\Debug\DABanVit.pdb
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\obj\Debug\DABanVit.csprojAssemblyReference.cache
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\obj\Debug\DABanVit.Form1.resources
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\obj\Debug\DABanVit.Form2.resources
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\obj\Debug\DABanVit.Properties.Resources.resources
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\obj\Debug\DABanVit.csproj.GenerateResource.cache
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\obj\Debug\DABanVit.csproj.CoreCompileInputs.cache
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\obj\Debug\DABanVit.exe
+C:\Users\Vo Tan Nguyen\Documents\GitHub\GameGiuaKy\DABanVit\DABanVit\obj\Debug\DABanVit.pdb
