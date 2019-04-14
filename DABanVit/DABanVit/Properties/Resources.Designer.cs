@@ -63,9 +63,49 @@ namespace DABanVit.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hanhtinh1 {
+            get {
+                object obj = ResourceManager.GetObject("hanhtinh1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SaoHaiVuong1 {
+            get {
+                object obj = ResourceManager.GetObject("SaoHaiVuong1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SaoKim1 {
+            get {
+                object obj = ResourceManager.GetObject("SaoKim1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Spaceship_PNG1 {
             get {
                 object obj = ResourceManager.GetObject("Spaceship_PNG1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TaiDat1 {
+            get {
+                object obj = ResourceManager.GetObject("TaiDat1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +136,26 @@ namespace DABanVit.Properties {
         internal static System.Drawing.Bitmap vit13 {
             get {
                 object obj = ResourceManager.GetObject("vit13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vu_tru_huyen_ao {
+            get {
+                object obj = ResourceManager.GetObject("vu_tru_huyen_ao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vutru {
+            get {
+                object obj = ResourceManager.GetObject("vutru", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -90,48 +90,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\maybay.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vit1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vit2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vit3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vit4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\boom.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\space-ship.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ThienThach.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Vit5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vit6.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vit7.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vit8.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vit9.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vit10.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Vit11.png" />
   </ItemGroup>
   <ItemGroup>
@@ -141,10 +99,25 @@
     <None Include="Resources\vit13.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\space-ship2.png" />
+    <None Include="Resources\Spaceship-PNG1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Spaceship-PNG1.png" />
+    <None Include="Resources\TaiDat1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaoKim1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaoHaiVuong1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hanhtinh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vutru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vu tru huyen ao.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -31,6 +31,23 @@
             this.components = new System.ComponentModel.Container();
             this.gametime = new System.Windows.Forms.Timer(this.components);
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.SaoKim = new System.Windows.Forms.PictureBox();
+            this.SaoHoa = new System.Windows.Forms.PictureBox();
+            this.TraiDat = new System.Windows.Forms.PictureBox();
+            this.Ngoisao2 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao1 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao13 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao7 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao6 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao11 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao10 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao3 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao8 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao4 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao9 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao5 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao12 = new System.Windows.Forms.PictureBox();
+            this.Ngoisao = new System.Windows.Forms.PictureBox();
             this.SpaceShip = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
@@ -51,20 +68,24 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Man1 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao = new System.Windows.Forms.PictureBox();
-            this.Ngoisao12 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao5 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao9 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao4 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao8 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao3 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao10 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao11 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao6 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao7 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao13 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao1 = new System.Windows.Forms.PictureBox();
-            this.Ngoisao2 = new System.Windows.Forms.PictureBox();
+            this.timerBullet = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.SaoKim)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaoHoa)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TraiDat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SpaceShip)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
@@ -85,20 +106,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Man1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao2)).BeginInit();
             this.SuspendLayout();
             // 
             // gametime
@@ -111,19 +118,177 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // SaoKim
+            // 
+            this.SaoKim.BackColor = System.Drawing.Color.MidnightBlue;
+            this.SaoKim.Image = global::DABanVit.Properties.Resources.hanhtinh1;
+            this.SaoKim.Location = new System.Drawing.Point(538, -400);
+            this.SaoKim.Name = "SaoKim";
+            this.SaoKim.Size = new System.Drawing.Size(330, 323);
+            this.SaoKim.TabIndex = 36;
+            this.SaoKim.TabStop = false;
+            // 
+            // SaoHoa
+            // 
+            this.SaoHoa.BackColor = System.Drawing.Color.MidnightBlue;
+            this.SaoHoa.Image = global::DABanVit.Properties.Resources.SaoKim1;
+            this.SaoHoa.Location = new System.Drawing.Point(12, -400);
+            this.SaoHoa.Name = "SaoHoa";
+            this.SaoHoa.Size = new System.Drawing.Size(330, 330);
+            this.SaoHoa.TabIndex = 35;
+            this.SaoHoa.TabStop = false;
+            // 
+            // TraiDat
+            // 
+            this.TraiDat.BackColor = System.Drawing.Color.MidnightBlue;
+            this.TraiDat.Image = global::DABanVit.Properties.Resources.TaiDat1;
+            this.TraiDat.Location = new System.Drawing.Point(1123, -323);
+            this.TraiDat.Name = "TraiDat";
+            this.TraiDat.Size = new System.Drawing.Size(330, 330);
+            this.TraiDat.TabIndex = 34;
+            this.TraiDat.TabStop = false;
+            // 
+            // Ngoisao2
+            // 
+            this.Ngoisao2.BackColor = System.Drawing.Color.White;
+            this.Ngoisao2.Location = new System.Drawing.Point(983, 541);
+            this.Ngoisao2.Name = "Ngoisao2";
+            this.Ngoisao2.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao2.TabIndex = 33;
+            this.Ngoisao2.TabStop = false;
+            // 
+            // Ngoisao1
+            // 
+            this.Ngoisao1.BackColor = System.Drawing.Color.White;
+            this.Ngoisao1.Location = new System.Drawing.Point(1371, 459);
+            this.Ngoisao1.Name = "Ngoisao1";
+            this.Ngoisao1.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao1.TabIndex = 32;
+            this.Ngoisao1.TabStop = false;
+            // 
+            // Ngoisao13
+            // 
+            this.Ngoisao13.BackColor = System.Drawing.Color.White;
+            this.Ngoisao13.Location = new System.Drawing.Point(369, 599);
+            this.Ngoisao13.Name = "Ngoisao13";
+            this.Ngoisao13.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao13.TabIndex = 31;
+            this.Ngoisao13.TabStop = false;
+            // 
+            // Ngoisao7
+            // 
+            this.Ngoisao7.BackColor = System.Drawing.Color.White;
+            this.Ngoisao7.Location = new System.Drawing.Point(584, 487);
+            this.Ngoisao7.Name = "Ngoisao7";
+            this.Ngoisao7.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao7.TabIndex = 30;
+            this.Ngoisao7.TabStop = false;
+            // 
+            // Ngoisao6
+            // 
+            this.Ngoisao6.BackColor = System.Drawing.Color.White;
+            this.Ngoisao6.Location = new System.Drawing.Point(618, 355);
+            this.Ngoisao6.Name = "Ngoisao6";
+            this.Ngoisao6.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao6.TabIndex = 29;
+            this.Ngoisao6.TabStop = false;
+            // 
+            // Ngoisao11
+            // 
+            this.Ngoisao11.BackColor = System.Drawing.Color.White;
+            this.Ngoisao11.Location = new System.Drawing.Point(61, 314);
+            this.Ngoisao11.Name = "Ngoisao11";
+            this.Ngoisao11.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao11.TabIndex = 28;
+            this.Ngoisao11.TabStop = false;
+            // 
+            // Ngoisao10
+            // 
+            this.Ngoisao10.BackColor = System.Drawing.Color.White;
+            this.Ngoisao10.Location = new System.Drawing.Point(214, 476);
+            this.Ngoisao10.Name = "Ngoisao10";
+            this.Ngoisao10.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao10.TabIndex = 27;
+            this.Ngoisao10.TabStop = false;
+            // 
+            // Ngoisao3
+            // 
+            this.Ngoisao3.BackColor = System.Drawing.Color.White;
+            this.Ngoisao3.Location = new System.Drawing.Point(1181, 166);
+            this.Ngoisao3.Name = "Ngoisao3";
+            this.Ngoisao3.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao3.TabIndex = 26;
+            this.Ngoisao3.TabStop = false;
+            // 
+            // Ngoisao8
+            // 
+            this.Ngoisao8.BackColor = System.Drawing.Color.White;
+            this.Ngoisao8.Location = new System.Drawing.Point(453, 137);
+            this.Ngoisao8.Name = "Ngoisao8";
+            this.Ngoisao8.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao8.TabIndex = 25;
+            this.Ngoisao8.TabStop = false;
+            // 
+            // Ngoisao4
+            // 
+            this.Ngoisao4.BackColor = System.Drawing.Color.White;
+            this.Ngoisao4.Location = new System.Drawing.Point(812, 355);
+            this.Ngoisao4.Name = "Ngoisao4";
+            this.Ngoisao4.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao4.TabIndex = 24;
+            this.Ngoisao4.TabStop = false;
+            // 
+            // Ngoisao9
+            // 
+            this.Ngoisao9.BackColor = System.Drawing.Color.White;
+            this.Ngoisao9.Location = new System.Drawing.Point(228, 202);
+            this.Ngoisao9.Name = "Ngoisao9";
+            this.Ngoisao9.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao9.TabIndex = 23;
+            this.Ngoisao9.TabStop = false;
+            // 
+            // Ngoisao5
+            // 
+            this.Ngoisao5.BackColor = System.Drawing.Color.White;
+            this.Ngoisao5.Location = new System.Drawing.Point(796, 126);
+            this.Ngoisao5.Name = "Ngoisao5";
+            this.Ngoisao5.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao5.TabIndex = 22;
+            this.Ngoisao5.TabStop = false;
+            // 
+            // Ngoisao12
+            // 
+            this.Ngoisao12.BackColor = System.Drawing.Color.White;
+            this.Ngoisao12.Location = new System.Drawing.Point(90, 76);
+            this.Ngoisao12.Name = "Ngoisao12";
+            this.Ngoisao12.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao12.TabIndex = 21;
+            this.Ngoisao12.TabStop = false;
+            // 
+            // Ngoisao
+            // 
+            this.Ngoisao.BackColor = System.Drawing.Color.White;
+            this.Ngoisao.Location = new System.Drawing.Point(1465, 304);
+            this.Ngoisao.Name = "Ngoisao";
+            this.Ngoisao.Size = new System.Drawing.Size(11, 11);
+            this.Ngoisao.TabIndex = 20;
+            this.Ngoisao.TabStop = false;
+            // 
             // SpaceShip
             // 
-            this.SpaceShip.BackColor = System.Drawing.Color.White;
+            this.SpaceShip.BackColor = System.Drawing.Color.MidnightBlue;
             this.SpaceShip.Image = global::DABanVit.Properties.Resources.Spaceship_PNG1;
             this.SpaceShip.Location = new System.Drawing.Point(773, 738);
             this.SpaceShip.Name = "SpaceShip";
             this.SpaceShip.Size = new System.Drawing.Size(110, 109);
             this.SpaceShip.TabIndex = 19;
             this.SpaceShip.TabStop = false;
+            this.SpaceShip.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SpaceShip_MouseDown);
+            this.SpaceShip.MouseUp += new System.Windows.Forms.MouseEventHandler(this.SpaceShip_MouseUp);
             // 
             // pictureBox19
             // 
-            this.pictureBox19.BackColor = System.Drawing.Color.White;
+            this.pictureBox19.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox19.Image = global::DABanVit.Properties.Resources.vit13;
             this.pictureBox19.InitialImage = null;
             this.pictureBox19.Location = new System.Drawing.Point(1209, 304);
@@ -134,7 +299,7 @@
             // 
             // pictureBox18
             // 
-            this.pictureBox18.BackColor = System.Drawing.Color.White;
+            this.pictureBox18.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox18.Image = global::DABanVit.Properties.Resources.vit13;
             this.pictureBox18.Location = new System.Drawing.Point(1033, 304);
             this.pictureBox18.Name = "pictureBox18";
@@ -144,7 +309,7 @@
             // 
             // pictureBox17
             // 
-            this.pictureBox17.BackColor = System.Drawing.Color.White;
+            this.pictureBox17.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox17.Image = global::DABanVit.Properties.Resources.vit13;
             this.pictureBox17.Location = new System.Drawing.Point(852, 304);
             this.pictureBox17.Name = "pictureBox17";
@@ -154,7 +319,7 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.White;
+            this.pictureBox16.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox16.Image = global::DABanVit.Properties.Resources.vit13;
             this.pictureBox16.Location = new System.Drawing.Point(670, 304);
             this.pictureBox16.Name = "pictureBox16";
@@ -164,7 +329,7 @@
             // 
             // pictureBox15
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.White;
+            this.pictureBox15.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox15.Image = global::DABanVit.Properties.Resources.vit13;
             this.pictureBox15.Location = new System.Drawing.Point(485, 304);
             this.pictureBox15.Name = "pictureBox15";
@@ -174,7 +339,7 @@
             // 
             // pictureBox14
             // 
-            this.pictureBox14.BackColor = System.Drawing.Color.White;
+            this.pictureBox14.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox14.Image = global::DABanVit.Properties.Resources.vit13;
             this.pictureBox14.Location = new System.Drawing.Point(302, 304);
             this.pictureBox14.Name = "pictureBox14";
@@ -184,7 +349,7 @@
             // 
             // pictureBox13
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.White;
+            this.pictureBox13.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox13.Image = global::DABanVit.Properties.Resources.Vit11;
             this.pictureBox13.Location = new System.Drawing.Point(1209, 166);
             this.pictureBox13.Name = "pictureBox13";
@@ -194,7 +359,7 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.White;
+            this.pictureBox12.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox12.Image = global::DABanVit.Properties.Resources.Vit11;
             this.pictureBox12.Location = new System.Drawing.Point(1033, 166);
             this.pictureBox12.Name = "pictureBox12";
@@ -204,7 +369,7 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.White;
+            this.pictureBox11.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox11.Image = global::DABanVit.Properties.Resources.Vit11;
             this.pictureBox11.Location = new System.Drawing.Point(852, 166);
             this.pictureBox11.Name = "pictureBox11";
@@ -214,7 +379,7 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.White;
+            this.pictureBox10.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox10.ErrorImage = null;
             this.pictureBox10.Image = global::DABanVit.Properties.Resources.Vit11;
             this.pictureBox10.Location = new System.Drawing.Point(670, 166);
@@ -225,7 +390,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.White;
+            this.pictureBox9.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox9.Image = global::DABanVit.Properties.Resources.Vit11;
             this.pictureBox9.Location = new System.Drawing.Point(485, 166);
             this.pictureBox9.Name = "pictureBox9";
@@ -235,7 +400,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.White;
+            this.pictureBox8.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox8.Image = global::DABanVit.Properties.Resources.Vit11;
             this.pictureBox8.Location = new System.Drawing.Point(302, 166);
             this.pictureBox8.Name = "pictureBox8";
@@ -245,7 +410,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.White;
+            this.pictureBox7.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox7.Image = global::DABanVit.Properties.Resources.vit12;
             this.pictureBox7.Location = new System.Drawing.Point(1210, 22);
@@ -256,7 +421,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.White;
+            this.pictureBox6.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox6.Image = global::DABanVit.Properties.Resources.vit12;
             this.pictureBox6.Location = new System.Drawing.Point(1034, 22);
@@ -267,7 +432,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.White;
+            this.pictureBox5.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox5.Image = global::DABanVit.Properties.Resources.vit12;
             this.pictureBox5.Location = new System.Drawing.Point(853, 22);
@@ -278,7 +443,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.White;
+            this.pictureBox4.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox4.Image = global::DABanVit.Properties.Resources.vit12;
             this.pictureBox4.Location = new System.Drawing.Point(671, 22);
@@ -289,7 +454,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox3.Image = global::DABanVit.Properties.Resources.vit12;
             this.pictureBox3.Location = new System.Drawing.Point(486, 22);
@@ -300,7 +465,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.BackColor = System.Drawing.Color.MidnightBlue;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox2.Image = global::DABanVit.Properties.Resources.vit12;
             this.pictureBox2.Location = new System.Drawing.Point(303, 22);
@@ -311,146 +476,32 @@
             // 
             // Man1
             // 
-            this.Man1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.Man1.BackColor = System.Drawing.Color.White;
-            this.Man1.Location = new System.Drawing.Point(2, 3);
+            this.Man1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Man1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.Man1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Man1.Location = new System.Drawing.Point(3, -1);
             this.Man1.Name = "Man1";
-            this.Man1.Size = new System.Drawing.Size(1566, 876);
+            this.Man1.Size = new System.Drawing.Size(1566, 882);
             this.Man1.TabIndex = 0;
             this.Man1.TabStop = false;
+            this.Man1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Man1_MouseDown);
             this.Man1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Man1_MouseMove);
+            this.Man1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Man1_MouseUp);
             // 
-            // Ngoisao
+            // timerBullet
             // 
-            this.Ngoisao.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao.Location = new System.Drawing.Point(1465, 304);
-            this.Ngoisao.Name = "Ngoisao";
-            this.Ngoisao.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao.TabIndex = 20;
-            this.Ngoisao.TabStop = false;
-            // 
-            // Ngoisao12
-            // 
-            this.Ngoisao12.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao12.Location = new System.Drawing.Point(90, 76);
-            this.Ngoisao12.Name = "Ngoisao12";
-            this.Ngoisao12.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao12.TabIndex = 21;
-            this.Ngoisao12.TabStop = false;
-            // 
-            // Ngoisao5
-            // 
-            this.Ngoisao5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao5.Location = new System.Drawing.Point(796, 126);
-            this.Ngoisao5.Name = "Ngoisao5";
-            this.Ngoisao5.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao5.TabIndex = 22;
-            this.Ngoisao5.TabStop = false;
-            // 
-            // Ngoisao9
-            // 
-            this.Ngoisao9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao9.Location = new System.Drawing.Point(228, 202);
-            this.Ngoisao9.Name = "Ngoisao9";
-            this.Ngoisao9.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao9.TabIndex = 23;
-            this.Ngoisao9.TabStop = false;
-            // 
-            // Ngoisao4
-            // 
-            this.Ngoisao4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao4.Location = new System.Drawing.Point(812, 355);
-            this.Ngoisao4.Name = "Ngoisao4";
-            this.Ngoisao4.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao4.TabIndex = 24;
-            this.Ngoisao4.TabStop = false;
-            // 
-            // Ngoisao8
-            // 
-            this.Ngoisao8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao8.Location = new System.Drawing.Point(453, 137);
-            this.Ngoisao8.Name = "Ngoisao8";
-            this.Ngoisao8.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao8.TabIndex = 25;
-            this.Ngoisao8.TabStop = false;
-            // 
-            // Ngoisao3
-            // 
-            this.Ngoisao3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao3.Location = new System.Drawing.Point(1181, 166);
-            this.Ngoisao3.Name = "Ngoisao3";
-            this.Ngoisao3.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao3.TabIndex = 26;
-            this.Ngoisao3.TabStop = false;
-            // 
-            // Ngoisao10
-            // 
-            this.Ngoisao10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao10.Location = new System.Drawing.Point(214, 476);
-            this.Ngoisao10.Name = "Ngoisao10";
-            this.Ngoisao10.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao10.TabIndex = 27;
-            this.Ngoisao10.TabStop = false;
-            // 
-            // Ngoisao11
-            // 
-            this.Ngoisao11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao11.Location = new System.Drawing.Point(61, 314);
-            this.Ngoisao11.Name = "Ngoisao11";
-            this.Ngoisao11.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao11.TabIndex = 28;
-            this.Ngoisao11.TabStop = false;
-            // 
-            // Ngoisao6
-            // 
-            this.Ngoisao6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao6.Location = new System.Drawing.Point(618, 355);
-            this.Ngoisao6.Name = "Ngoisao6";
-            this.Ngoisao6.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao6.TabIndex = 29;
-            this.Ngoisao6.TabStop = false;
-            // 
-            // Ngoisao7
-            // 
-            this.Ngoisao7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao7.Location = new System.Drawing.Point(584, 487);
-            this.Ngoisao7.Name = "Ngoisao7";
-            this.Ngoisao7.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao7.TabIndex = 30;
-            this.Ngoisao7.TabStop = false;
-            // 
-            // Ngoisao13
-            // 
-            this.Ngoisao13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao13.Location = new System.Drawing.Point(369, 599);
-            this.Ngoisao13.Name = "Ngoisao13";
-            this.Ngoisao13.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao13.TabIndex = 31;
-            this.Ngoisao13.TabStop = false;
-            // 
-            // Ngoisao1
-            // 
-            this.Ngoisao1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao1.Location = new System.Drawing.Point(1371, 459);
-            this.Ngoisao1.Name = "Ngoisao1";
-            this.Ngoisao1.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao1.TabIndex = 32;
-            this.Ngoisao1.TabStop = false;
-            // 
-            // Ngoisao2
-            // 
-            this.Ngoisao2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Ngoisao2.Location = new System.Drawing.Point(983, 541);
-            this.Ngoisao2.Name = "Ngoisao2";
-            this.Ngoisao2.Size = new System.Drawing.Size(11, 11);
-            this.Ngoisao2.TabIndex = 33;
-            this.Ngoisao2.TabStop = false;
+            this.timerBullet.Enabled = true;
+            this.timerBullet.Interval = 50;
+            this.timerBullet.Tick += new System.EventHandler(this.timerBullet_Tick);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1570, 881);
+            this.Controls.Add(this.SaoKim);
+            this.Controls.Add(this.SaoHoa);
+            this.Controls.Add(this.TraiDat);
             this.Controls.Add(this.Ngoisao2);
             this.Controls.Add(this.Ngoisao1);
             this.Controls.Add(this.Ngoisao13);
@@ -488,9 +539,23 @@
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form2_KeyDown);
-            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form2_KeyUp);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form2_MouseMove);
+            ((System.ComponentModel.ISupportInitialize)(this.SaoKim)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SaoHoa)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TraiDat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SpaceShip)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
@@ -511,20 +576,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Man1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ngoisao2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -566,5 +617,9 @@
         private System.Windows.Forms.PictureBox Ngoisao13;
         private System.Windows.Forms.PictureBox Ngoisao1;
         private System.Windows.Forms.PictureBox Ngoisao2;
+        private System.Windows.Forms.PictureBox TraiDat;
+        private System.Windows.Forms.PictureBox SaoHoa;
+        private System.Windows.Forms.PictureBox SaoKim;
+        private System.Windows.Forms.Timer timerBullet;
     }
 }
